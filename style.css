@@ -1,0 +1,142 @@
+.redes{
+    text-decoration: none;
+    height: 70px;
+    width: 70px;
+    font-size: 2rem;
+    overflow: hidden;
+}
+.redes ion-icon {
+    margin-top: 15px;
+    margin-left: 3px;
+}
+body{
+    background-image: radial-gradient(#3a8299 62.5%, #3f819d 68.75%, #46809f 75%, #4e7fa1 81.25%, #567da3 87.5%, #5e7ba3 93.75%, #6779a3 100%);
+}
+footer{
+    border-top: solid 3px black;
+    background-color: #6779a3;
+}
+nav{
+    border-bottom: solid 3px black;
+}
+.espacio{
+    padding-bottom: 30px;
+}
+.titulo{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-shadow: 7px 4px 5px white ;
+}
+.bor-red{
+    border-radius: 7%;
+}
+/*Tienda*/
+.container {
+    background: #fff !important;
+    border: none;
+    border-radius: none
+}
+
+.abc {
+    padding-left: 40px
+}
+
+.pqr {
+    padding-right: 70px;
+    padding-top: 14px
+}
+
+.para {
+    float: right;
+    margin-right: 0;
+    padding-left: 80%;
+    top: 0
+}
+.col-md-2 {
+    padding-bottom: 20px;
+    font-weight: bold
+}
+
+.col-md-2 a {
+    text-decoration: none;
+    color: #000
+}
+
+.col-md-2.mio {
+    font-size: 12px;
+    padding-top: 7px
+}
+.des::after {
+    content: '.';
+    font-size: 0;
+    display: block;
+    border-radius: 20px;
+    height: 6px;
+    width: 55%;
+    background: rgb(7, 25, 129);
+    margin: 14px 0
+}
+
+.r4 {
+    padding-left: 25px
+}
+
+.btn-outline-warning {
+    border-radius: 0;
+    border: 2px solid rgb(13, 5, 131);
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    width: 70%
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        width: 98%;
+        display: flex;
+        flex-flow: column;
+        text-align: center
+    }
+
+    .des::after {
+        content: '.';
+        font-size: 0;
+        display: block;
+        border-radius: 20px;
+        height: 6px;
+        width: 35%;
+        background: rgb(22, 3, 107);
+        margin: 10px auto
+    }
+
+    .pqr {
+        text-align: center;
+        margin: 0 30px
+    }
+
+    .para {
+        text-align: center;
+        padding-left: 90px;
+        padding-top: 10px
+    }
+
+    .klo {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        margin-right: 40px
+    }
+}
+
+.contacto{
+    background-color: whitesmoke;
+    max-width: 950px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 5%;
+    border: solid 2px black;
+}
+.fondo-trans{
+    background-color: rgba(255, 255, 255, 0) !important;
+}

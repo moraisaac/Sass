@@ -1,0 +1,65 @@
+$tamanoBoton: 150px;
+$tamanoTipo: 15px;
+/* Estilos generales */
+
+.btn {
+    border-radius: 10%;
+    width: $tamanoBoton;
+    height: $tamanoBoton/3;
+    font-size: $tamanoTipo;
+    border: solid 1px black;
+    background-color: wheat;
+    :hover{
+          background-color: rgb(114, 173, 137);
+          border: 15%;
+    }
+}
+
+.anima-div{
+      :hover{
+            border-left: 3px;
+            border: solid 3px seagreen;
+      }
+}
+
+.menu-hov{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      width: 530px;
+      :hover{
+            border: solid 2px whitesmoke;
+            font-size: 15px;
+      }
+}
+
+.cente{
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+}
+
+@keyframes aparecer {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+div {
+	opacity: 1;
+	animation-name: aparecer;
+	animation-duration: 1s;
+	animation-fill-mode:backwards;
+}
+
+
+$delay: 0;
+@for $i from 1 through 4 {
+	div:nth-child(#{$i}) { 
+		animation-delay: $delay + s;
+	}
+	$delay: $delay + 1;
+} 
